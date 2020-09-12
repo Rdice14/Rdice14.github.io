@@ -3,65 +3,81 @@
     <head>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <link rel="stylesheet" rype="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:wght@400;500;700;800&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="name title text-center cotainer">
-            <!--Name, Uni, Major, Contacts, Skill-->
-            <h2>Hafil Noer Zachiary</h2>
-            <h4>Data Science and Artificial Intelligence Enthusiast</h4>
-            <h5>Singapore Management University, School of Information Systems</h5>
-            <ul class="contacts">
-                <li><a href="https://www.linkedin.com/in/hafilnz/">https://www.linkedin.com/in/hafilnz/</a></li>
-                <li>|</li>
-                <li>hnzachiary.2019@smu.edu.sg</li>
-            </ul>
+        <!-- <div class="name"> -->
+            <!--Name, Contacts, Skill-->
+        <div class="name">
+            <div class="container about">
+                <div class="row">
+                    <!-- <div class="col-sm-1 border"></div> -->
+                    <div class="col-sm-8 raleway" style="font-size: 3rem; font-weight:bold">HAFIL NOER ZACHIARY</div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-3 raleway" style="font-size: .8rem; margin-top: 6px; text-align: right;">
+                        <ul style="list-style-type: none;">
+                            <li>
+                                github.com/Rdice14
+                            </li>
+                            <li>
+                                linkedin.com/in/hafilnz
+                            </li>
+                            <li>
+                                hnzachiary.2019@smu.edu.sg
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="text-center about container">
+        <!-- </div> -->
+        <div class="text-center about container"> 
             <!--Summary-->
-            <h6 style="text-align: left; font-size: x-large;">About</h6>
-            <p style="font-size: small; letter-spacing: .2; text-align: justify;">
-                I am an undergraduate student from Singapore Management University, currently pursuing a degree in Information Systems with double majors in Business Analytics
-                and Artificial Intelligence. <span class="weight">Python programming</span>, alongside <span class="weight">MySQL</span> are two of my strongest areas coupled with web development skills such as <span class="weight">PHP</span> and <span class="weight">Javascript</span>. 
-                Additionally, I am proficient in <span class="weight">Indonesian</span> as well as <span class="weight">English</span>. 
-                I am currently looking forward to apply the skills I have learned in univeristy in a working environment.
-                <!-- Hello There! The name's Hafil and am currently pursuing an information systems degree at Singapore Management University with double majors in Artificial Intelligence and Business Analytics. -->
-            </p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="d-flex flex-row bd-highlight mb-3 align-middle"style="margin-left: -10px; font-size:.91rem;">
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/python-plain.svg?size=20&color=ffffff"/> Python</div>
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/java-plain.svg?size=20&color=ffffff"> Java</div>
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/mysql-plain.svg?size=20&color=ffffff"> MySQL</div>
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/php-plain.svg?size=20&color=ffffff"> PHP</div>
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/html5-plain.svg?size=20&color=ffffff"> HTML</div>
+                            <div class="p-2 bd-highlight"><img src="https://icongr.am/devicon/javascript-plain.svg?size=20&color=ffffff"> Javascript</div>
+                        </div>
+                </div>
+            </div>
         </div>
         <div class="text-center education container">
             <!--Education-->
             <h6 style="text-align: left; font-size: x-large;">Education</h6>
             <div style="text-align:left">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-sm-9">
                         <p style="font-size:large">Singapore Management University</p> 
-                        <p style="font-size:small">Bachelor of Science (Information Systems)</p> 
+                        <p style="font-size:small">Bachelor of Science (Information Systems) <br/> cGPA: 3.41/4.00</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <p style="font-size: large; text-align-last: right"> 2019 -<br/> <span style="font-size: small;">Present</span></p>
                     </div>
                 </div>
-                <br/>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-sm-9">
                         <p style="font-size:large">SMA Negeri 28 Jakarta </p> 
                         <p style="font-size:small">Highschool Diploma (Material Science) <br/> National Examination: 36.75/40.00</p> 
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-sm-3">
                         <p style="font-size: large; text-align-last: right"> 2016 -<br/> 2019</p>
                     </div>
                 </div>
             </div>
         </div>
-        <br/>
         <div class="text-center education container">
             <!--Organization-->
-            <h6 style="text-align: left; font-size: x-large;">Organzations</h6>
+            <h6 style="text-align: left; font-size: x-large;">Organizations</h6>
             <div style="text-align:left">
                 <div class="row">
                     <div class="col-md-9">
                         <p style="font-size:large">SMUAI - Programme Lead</p> 
-                        <p style="font-size:small">Programme Lead</p>
                         <p style="font-size:small; text-align:justify">
                             Collaborated with fellow executive committee members to organize events and conduct researches for the purpose of creating articles to develop thought leadership on AI in the community.
                             In charge of SMUAI website and Telegram bot maintenance to update information regarding events and articles.
@@ -71,11 +87,9 @@
                         <p style="font-size: large; text-align-last: right"> 2020 -<br/> <span style="font-size: small;">Present</span></p>
                     </div>
                 </div>
-                <br/>
                 <div class="row">
                     <div class="col-md-9">
-                        <p style="font-size:large">SMUAI</p> 
-                        <p style="font-size:small">Subcommitteee Team</p>
+                        <p style="font-size:large">SMUAI - Subcommittee Team</p> 
                         <p style="font-size:small; text-align:justify">
                             Organized events that facilitated the sharing of ideas in the field of Artificial Intelligence 
                             through panel discussions with industry leaders and experts in academics supported by Singapore Management University’s IIE.
@@ -85,11 +99,9 @@
                         <p style="font-size: large; text-align-last: right;"> 2019 -<br/> 2020</p>
                     </div>
                 </div>
-                <br/>
                 <div class="row">
                     <div class="col-md-9">
-                        <p style="font-size:large">GAYA 2020</p> 
-                        <p style="font-size:small">Cooperate Liaison Team</p>
+                        <p style="font-size:large">GAYA 2020 - Cooperate Liaison Team</p> 
                         <p style="font-size:small; text-align:justify">
                             Liaised and networked with company representatives for the purpose of promoting GAYA, a musical production depicting 
                             Indonesian culture and heritage by SMU Indonesian community, and gaining event sponsorship also future collaboration opportunities.
@@ -99,27 +111,6 @@
                         <p style="font-size: large; text-align-last: right;"> 2019 -<br/> 2020</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <br/>
-        <div class="text-center education container">
-            <!--Voluntary-->
-            <h6 style="text-align: left; font-size: x-large;">Volunteering Experience</h6>
-            <div style="text-align:left">
-                <div class="row">
-                    <div class="col-md-9">
-                        <p style="font-size:large">Project Able</p> 
-                        <p style="font-size:small">Volunteering Team Member</p>
-                        <p style="font-size:small; text-align:justify">
-                            Volunteered in Rainbow Center, a registered charity institution, 
-                            in assisting children with disabilities assisting teachers in communicating and educating children with impaired intellectual.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <p style="font-size: large; text-align-last: right"> 2019 -<br/> 2020</p>
-                    </div>
-                </div>
-                <br/>
             </div>
         </div>
         <div class="text-center education container">
@@ -138,7 +129,6 @@
                         <p style="font-size: large; text-align-last: right"> 2017 </p>
                     </div>
                 </div>
-                <br/>
                 <div class="row">
                     <div class="col-md-9">
                         <p style="font-size:large">Technical Award in Creative Category Competition (Challenge-Level)</p> 
@@ -152,6 +142,25 @@
                         <p style="font-size: large; text-align-last: right"> 2016 </p>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="text-center education container">
+            <!--Voluntary-->
+            <h6 style="text-align: left; font-size: x-large;">Volunteering Experience</h6>
+            <div style="text-align:left">
+                <div class="row">
+                    <div class="col-md-9">
+                        <p style="font-size:large">Project Able - Volunteering Team Member</p> 
+                        <p style="font-size:small; text-align:justify">
+                            Volunteered in Rainbow Center, a registered charity institution, 
+                            in assisting children with disabilities assisting teachers in communicating and educating children with impaired intellectual.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <p style="font-size: large; text-align-last: right"> 2019 -<br/> 2020</p>
+                    </div>
+                </div>
+                <br/>
             </div>
         </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -1,7 +1,7 @@
 body {
     background: rgb(53, 52, 52);
     font: larger Lato, Roboto, sans-serif;
-    font-family: Andale Mono, monospace;  
+    font-family: Raleway, sans-serif;
 
 }
 
@@ -19,29 +19,34 @@ ul li{
   }
 
 .name {
-    font-variant: small-caps;
-    text-align: center;
     color: white;
     border:0px black solid;
     background: rgb(65, 61, 61);
     /* display:flex;  <-- can be used for jobs later*/
-    padding: 10px;
 }
 
 .about{
-    padding: 20px;
+    padding: 10px;
     color:white;
     width: 85%;
     
 }
 
 .education{
-    padding: 20px;
+    padding: 10px;
     color:white;
     width: 85%;
 }
 
 .weight{
     font-weight: 900;
-    font-size: large;
+    font-size: large; 
+} 
+
+.raleway{
+    font-family: Raleway, sans-serif;
+}
+
+.margin1{
+    margin: 0px 0px 0px -3px;
 }
