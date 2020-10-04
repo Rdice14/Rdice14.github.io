@@ -1,3 +1,61 @@
+/* Light Mode */
+
+/* body {
+    background: rgb(254, 254, 254);
+    font: larger Lato, Roboto, sans-serif;
+    font-family: Raleway, sans-serif;
+
+}
+
+.contacts{
+    font: larger Lato, Roboto, sans-serif;
+    font-family: Andale Mono, monospace;
+    word-wrap: break-word;
+    padding: 0px;
+    display: -ms-inline-grid;
+    font-size: small;
+    text-decoration: none; 
+    color:white;
+}
+
+ul li{
+    display: inline;
+  }
+
+.name {
+    color: black;
+    border:0px black solid;
+    background:rgb(240, 240, 240);
+}
+
+.about{
+    padding: 10px;
+    color:black;
+    width: 85%;
+    
+}
+
+.education{
+    padding: 10px;
+    color:black;
+    width: 85%;
+}
+
+.weight{
+    font-weight: 900;
+    font-size: large; 
+} 
+
+.raleway{
+    font-family: Raleway, sans-serif;
+}
+
+.margin1{
+    margin: 0px 0px 0px -3px;
+} */
+
+
+/* Dark Mode */
 body {
     background: rgb(53, 52, 52);
     font: larger Lato, Roboto, sans-serif;
@@ -12,6 +70,8 @@ body {
     padding: 0px;
     display: -ms-inline-grid;
     font-size: small;
+    text-decoration: none; 
+    color:black;
 }
 
 ul li{
@@ -22,7 +82,6 @@ ul li{
     color: white;
     border:0px black solid;
     background: rgb(65, 61, 61);
-    /* display:flex;  <-- can be used for jobs later*/
 }
 
 .about{
@@ -50,3 +109,5 @@ ul li{
 .margin1{
     margin: 0px 0px 0px -3px;
 }
+
+
